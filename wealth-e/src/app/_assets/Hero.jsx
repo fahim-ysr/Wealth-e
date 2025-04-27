@@ -19,7 +19,7 @@ function Hero() {
           }
         >
           <Image
-            src={`/public/demo_chart.png`}
+            src={`/demo_chart.png`}
             alt="hero"
             height={720}
             width={1400}

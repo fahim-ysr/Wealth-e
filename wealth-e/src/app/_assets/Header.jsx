@@ -11,12 +11,7 @@ function Header() {
     <div className="p-5 flex justify-between items-center border shadow-sm">
       <div className="flex flex-row item-center">
         {/* Logo */}
-        <Image
-          src={"/public/logo.png"}
-          alt="logo"
-          width={40}
-          height={30}
-        ></Image>
+        <Image src={"/logot.png"} alt="logo" width={100} height={100}></Image>
       </div>
       {/* Checks if user is signed in */}
       {isSignedIn ? (
