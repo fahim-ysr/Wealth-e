@@ -1,3 +1,4 @@
+// This page is for the Hero Section (Tablet Animation)
 import React from "react";
 import Image from "next/image";
 import { ContainerScroll } from "../../components/ui/container-scroll-animation";
@@ -22,7 +23,7 @@ function Hero() {
           }
         >
           <Image
-            src={`/demo_chart.png`}
+            src={"/demo_chart.png"}
             alt="hero"
             height={720}
             width={1400}

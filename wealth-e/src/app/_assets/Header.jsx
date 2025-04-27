@@ -1,3 +1,4 @@
+// This page is for header (top) section
 "use client";
 
 import React from "react";
