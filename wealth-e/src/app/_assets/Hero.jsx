@@ -10,9 +10,12 @@ function Hero() {
           titleComponent={
             <>
               <h1 className="text-4xl font-semibold text-black dark:text-white">
-                Unleash The Power Of <br />
-                <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                  AI-Driven Finance Advisor
+                Your Wealth <br />
+                <span
+                  className="text-4xl md:text-[6rem] font-bold mt-1 leading-none primary"
+                  style={{ color: "#8600FF" }}
+                >
+                  Perfected BY Precision
                 </span>
               </h1>
             </>
