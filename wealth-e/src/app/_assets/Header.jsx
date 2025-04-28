@@ -3,8 +3,9 @@
 
 import React from "react";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";   // Not working for some reason
 import { useUser, UserButton } from "@clerk/nextjs";
+import { Button } from "@heroui/button";
 
 function Header() {
   const { user, isSignedIn } = useUser();
@@ -19,10 +20,10 @@ function Header() {
         <UserButton />
       ) : (
         <div className="flex gap-4 item-center">
-          <Button variant="outline" className="rounded-full">
+          <Button color="secondary" variant="flat">
             Dashboard
           </Button>
-          <Button variant="secondary" className="rounded-full">
+          <Button Button color="secondary" variant="ghost">
             Get Started
           </Button>
         </div>
